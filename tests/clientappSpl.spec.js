@@ -1,6 +1,6 @@
 const {test,expect} = require('@playwright/test')
 
-test("@web Spetial locator",async ({page})=>{
+test("@web Spetial locator tesr case",async ({page})=>{
 
     await page.goto("https://www.saucedemo.com/");
     await page.getByPlaceholder("Username").fill("standard_user");
