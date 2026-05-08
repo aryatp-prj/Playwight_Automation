@@ -9,7 +9,6 @@
     "apitest": "npx playwright test --grep @api",
     "safari": "npx playwright test --config playwright.config1.js --project=safari",
     "chrome": "npx playwright test --config playwright.config1.js --project=chrome"
-
   },
   "keywords": [],
   "author": "",
@@ -17,7 +16,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.7.2"
   },
   "dependencies": {
     "exceljs": "^3.4.0"

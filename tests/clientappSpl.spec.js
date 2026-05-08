@@ -29,7 +29,7 @@ test("@web Spetial locator tesr case",async ({page})=>{
       await page.getByRole("button",{name:'Finish'}).click();
       await expect(page.getByTestId('complete-header')).toHaveText("Thank you for your order!");
       
-      await page.pause();
+     
 })
 // code generated from codegen - inbuild feature of playwright
 //Codegen is a Playwright feature that records user interactions and 

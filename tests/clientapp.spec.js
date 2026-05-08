@@ -32,7 +32,7 @@ test('@web client app login', async({page}) => {
       await page.locator("#finish").click();
       await expect(page.locator(".complete-header")).toHaveText("Thank you for your order!");
       
-      await page.pause();
+    
 
 // code generated from codegen - inbuild feature of playwright
 //Codegen is a Playwright feature that records user interactions and 
